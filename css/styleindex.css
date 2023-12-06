@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #9889bc, #524574);
+}
+
+#trimestre {
+    background-color: #36364248;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#topopad {
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tela-login {
+    width: 100vw;
+    height: 100vh;
+    background: #9889bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.login-esquerda {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-esquerda h1 {
+    font-size: 2vw;
+    color: #c4a4ff;
+    font-weight: bold;
+}
+
+.textoLogin{
+    background-color:#6149a2;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.img-esq {
+    width: 30vw;
+}
+
+.login-direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #6149a2;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login>h1 {
+    color: #c4a4ff;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #c4a4ff;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield>input::placeholder {
+    color: #f0ffffde
+}
+
+.botao-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f0ffffde;
+    background: #c4a4ff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #FAEBD7;
+}
+
+.teste2 {
+    width: 600px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #373636;
+    text-align: center;
+
+}
+
+.teste3 {
+    width: 800px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #373636;
+    text-align: center;
+}
+
+.teste4 {
+    width: 1000px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #373636;
+    text-align: center;
+
+}
+
+.teste2>p {
+    color: #c4a4ff;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+
+}
+
+.teste3>p {
+    color: #c4a4ff;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+
+}
+
+.teste4>p {
+    color: #c4a4ff;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+
+}
+
+.Info {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    padding: 15px;
+    width: 50%;
+    background-color: #373636;
+    border-radius: 20px;;
+}
+
+.Info > p{
+    color: #F8F7F3;
+}
+
+.Info > a{
+    color: #F8F7F3;
+
+}
+
+.paragrafo {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+    color: #F8F7F3;
+}
+
+.paragrafoleft {
+    font-family: 'Teko', sans-serif;
+    text-align: left;
+    font-size: 35px;
+    padding: 40px;
+    color: #F8F7F3;
+}
+
+.paragrafoinfo {
+    font-family: 'Noto sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: #F8F7F3;
+}
+
+.paragrafoinfoleft,  .paragrafoinfoleft > pre{
+    font-family: 'Noto sans', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+    color: #F8F7F3;
+}
+
+.iframes {
+    text-align: center;
+}
+
+.Conteudobtn {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    padding: 15px;
+    width: 45%;
+    background-image: linear-gradient(45deg, #373636, #181717, #181717);
+    transition: background-position 1.5s ease-in-out;
+}
+
+.Conteudobtn p {
+    color: #F8F7F3;
+}
+
+.testedacor a {
+    text-decoration: none;
+}
+
+#pandemia{
+    width:30;
+    height:30;
+}
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, .1);
+    border-left-color: #6149a2;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {transform: rotate(360deg);}
+}
